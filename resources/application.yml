@@ -1,0 +1,14 @@
+spring:
+    application:
+        name: config-server
+    cloud:
+        config:
+            server:
+                git:
+                    uri: https://github.com/754977826/REP1
+                    username: 754977826
+                    password: dnmaddd19950611
+            label: master
+
+server:
+    port: 8300
